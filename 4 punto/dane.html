@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="./css/estilos.css">
+    <title>FormularioDane</title>
+    
+</head>
+
+<body>
+   
+    <h1 class="navbar-brand" href="#">FORMULARIO DANE</h1>
+    
+    <div class="contenedor-formularior">
+        <div class="wrap">
+            <form action="" onsubmit="return validarInputs()" class="formulario" name="formulario_registro">
+                <div>
+                    <div class="input-group">
+                        <input type="text" id="name" name="Nombre">
+                        <label class="label" for="nombre">Nombre</label>
+                    </div>
+                    <div class="input-group">
+                        <input type="email" id="email" name="Email" >
+                        <label class="label" for="email">Correro</label>
+                    </div>
+                    <div class="input-group">
+                        <input type="text" id="addres" name="Addres" >
+                        <label class="label" for="addres">Direccion</label>
+                    </div>
+                    <div class="input-group">
+                        <input type="text" id="age" name="Age" >
+                        <label class="label" for="age">Edad</label>
+                    </div>
+                    <div class="input-group">
+                        <input type="text" id="ocupation" name="Ocupation" >
+                        <label class="label" for="ocupation">Ocupasion</label>
+                    </div>
+                    <div class="input-group">
+                        <input type="text" id="phon" name="Phon" >
+                        <label class="label" for="phon">Telefono</label>
+                    </div>
+                    
+                    <br></br>
+                    <input type="submit" value="enviar" id="btn-submit" onclick="valida_envia()">
+                </div>
+                    
+            </form>
+            <div id="product" class="col-md-8"></div>
+        </div>    
+    </div>
+</div>
+
+    
+
+    <script src="dane.js"></script>
+</body>
+
+</html>

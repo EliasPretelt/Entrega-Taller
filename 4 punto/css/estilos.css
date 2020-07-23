@@ -1,0 +1,83 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; }
+
+body {
+  background-image: url(../analogue-aperture-black-and-white-blur-614077.jpg); 
+  font-family: "Roboto";
+  border-top: 30px solid #303F9F; }
+.label{
+  color: #1976D2;
+
+}
+.wrap  {
+  width: 90%;
+  max-width: 500px;
+  padding: 40px;
+  margin: auto;
+  background: rgba(30, 30, 204, 0.705));
+  box-shadow: 0px 0px 3px blue; }
+
+h1{
+  text-align: center;
+  color: #1976D2;
+  font-family:"roboto";  
+
+}
+
+.contenedor-formulario {
+  width: 90%;
+  color: black;
+  padding: 50px; }
+.contenedor-formulario .formulario {
+  width: 100%;
+  margin: auto; }
+.contenedor-formulario .formulario .input-group {
+  position: relative;
+  margin-bottom: 32px; }
+.contenedor-formulario .formulario .input-group input[type="text"],
+.contenedor-formulario .formulario .input-group input[type="email"],
+.contenedor-formulario .formulario .input-group input[type="number"] {
+  font-family: "Roboto";
+  font-size: 20px;
+  color: blue;
+  width: 100%;
+  outline: none;
+  padding: 20px;
+  background: none;
+  border: none;
+  border-bottom: 2px solid #BBDEFB; }
+.contenedor-formulario .formulario .input-group input[type="text"]:focus, 
+.contenedor-formulario .formulario .input-group input[type="text"]:active,
+.contenedor-formulario .formulario .input-group input[type="email"]:focus,
+.contenedor-formulario .formulario .input-group input[type="email"]:active,
+.contenedor-formulario .formulario .input-group input[type="number"]:focus,
+.contenedor-formulario .formulario .input-group input[type="number"]:active {
+  outline: none;
+  border-bottom: 2px solid #303F9F; }
+.contenedor-formulario .formulario .input-group input[type="text"].error,
+.contenedor-formulario .formulario .input-group input[type="email"].error,
+.contenedor-formulario .formulario .input-group input[type="number"].error {
+  border-bottom: 2px solid #D32F2F; }
+.contenedor-formulario .formulario .input-group input[type="text"].error + label,
+.contenedor-formulario .formulario .input-group input[type="email"].error + label,
+.contenedor-formulario .formulario .input-group input[type="number"].error + label {
+  color: #D32F2F; }
+
+.formulario input[type="submit"] {
+  background: #303F9F;
+  border-radius: 1px;
+  border: 5px solid #f2f2f2;
+  color: white
+  display: inline-block;
+  font-family: "Roboto";
+  font-size: 25px;
+  padding: 15px;
+  width: 100%;
+}
+.formulario input[type="submit"]:hover {
+  background: #1976D2; }
+
